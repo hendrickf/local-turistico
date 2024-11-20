@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+    --font-open-sans: open-sans, sans-serif;
+    --h1: 36px;
+    --h2: 32px;
+    --h3: 28px;
+    --headline: 16px;
+    --subtitle: 16px;
+    --paragrafo: 16px;
+
+    background-color: #29292E;
+    
+}
+
+body {
+    text-align: center;
+    font-family: var(--font-open-sans);
+    margin: 80px 80px 80px 80px;
+    padding: 88px 80px 48px 80px;
+    background-color: var(--background-default);
+}
+
+.container {
+    box-sizing: border-box;
+    width: 1120px;
+    padding: 0px;
+    margin: auto;
+}
+
+.headline {
+    text-align: left;
+    font-size: var(--headline);
+    font-weight: bold;
+    color: var(--text-headline);
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+h1 {
+    font-size: var(--h1);
+    font-weight: bold;
+    text-align: left;
+    color: var(--text-primary);
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: var(--h2);
+    color: var(--text-primary);
+    font-weight: bold;
+    text-align: left;
+}
+
+h3 {
+    font-size: var(--h3);
+    color: var(--text-primary);
+    font-weight: bold;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+p {
+    font-size: var(--paragrafo);
+    color: var(--text-secondary);
+    text-align: left;
+    padding: 8px;
+}
+
+ul {
+    text-align: left;
+}
+
+.subtitle {
+    font-size: var(--subtitle);
+    font-style: italic;
+    color:var(--text-secondary);
+    text-align: center;
+    height: 37px;
+}
+
+.imagem {
+    width: 1120px;
+    height: 660px;
+    border-radius: 28px;
+    margin-bottom: 24px;
+}
+
+.paragrafo-espaco {
+    padding-bottom: 64px;
+}
+
+#lista-titulo {
+    padding-top: 44px;
+    padding-bottom: 64px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-blue);
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 32px;
+    padding-bottom: 48px;
+}
+
+#purple {
+    color: var(--accent-purple);
+}
+
+#pink {
+    color: var(--accent-pink);
+}
+
+#orange {
+    color: var(--accent-orange);
+    padding-bottom: 40px;
+}
+
+#description {
+ padding-top: 40px;
+ padding-bottom: 65px;
+}
+
+.rodape {
+    text-align: center;
+}
